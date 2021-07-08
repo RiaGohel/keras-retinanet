@@ -25,7 +25,7 @@ import time
 import tensorflow as tf
 
 # use this to change which GPU to use
-gpu = 0
+gpu = "0, "
 
 # set the modified tf session as backend in keras
 setup_gpu(gpu)
